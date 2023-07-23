@@ -1,0 +1,85 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+/* General styles end */
+
+.navbar-nav a {
+    color: #3D251E;
+    text-align:center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.navbar-nav a:hover {
+    background-color: #3D251E !important;
+    color: #FFF !important;
+}
+
+.navbar-nav a.active {
+    background-color: #3D251E !important;
+    color: white !important;
+}
+
+.logo {
+    height: 70px;
+    padding-left: 100px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #3D251E;
+    color: #fff;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.circular-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.disable-hover > a:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+@media (max-width: 1000px) {
+    /* Remove padding from navbar-nav when there is hamburger button */
+    .navbar-nav {
+        padding: 0;
+    }
+
+    /* Center-align navbar-nav when there is hamburger button */
+    .navbar-nav.center {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* Apply padding to navbar-nav when there is no hamburger button */
+    .navbar-nav {
+        padding-right: 100px;
+    }
+}

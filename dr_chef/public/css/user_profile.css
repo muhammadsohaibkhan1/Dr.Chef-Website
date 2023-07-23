@@ -1,0 +1,178 @@
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    background-color: #f2f2f2;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar li:last-child {
+    border-bottom: none;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+/* Profile Section Styling */
+.user-profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px !important;
+    object-fit: cover;
+}
+
+.label {
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.label-email {
+    padding-right: 62px;
+    font-weight: bold;
+}
+
+.label-age {
+    padding-right: 72px;
+    font-weight: bold;
+}
+
+.label-gender {
+    padding-right: 48px;
+    font-weight: bold;
+}
+
+.label-height {
+    padding-right: 26px;
+    font-weight: bold;
+}
+
+.label-weight {
+    padding-right: 18px;
+    font-weight: bold;
+}
+
+.label-activity {
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.label-disease {
+    padding-right: 48px;
+    font-weight: bold;
+}
+
+.label-goal {
+    padding-right: 12px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 250px;
+}
+
+input[type=number] {
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.setting-options a {
+    color: #96756b;
+}
+
+.setting-options a:hover {
+    color: #3D251E;
+}
+
+.setting-options .nav-link.active,
+.setting-options .nav-link:active {
+    color: #3D251E !important;
+}
+
+select {
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.save-btn {
+    margin-top: 40px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #8a655a;
+    border-radius: 8px;
+    background-color: #8a655a;
+    color: #FFF;
+}
+
+.save-btn:hover {
+    background-color: #3D251E;
+}
+
+/* Password Section Styling */
+#password-field {
+    max-width: 250px;
+    border-color: grey;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#toggle-password{
+    border: none;
+}
+
+/* Delete Account Styling */
+input[type=password] {
+    width: 260px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.del-btn {
+    margin-top: 40px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #d93838;
+    border-radius: 8px;
+    background-color: #d93838;
+    color: #FFF;
+}
+
+.del-btn:hover {
+    background-color: #b50404;
+}
+
+
+

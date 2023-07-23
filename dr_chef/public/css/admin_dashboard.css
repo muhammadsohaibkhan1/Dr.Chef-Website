@@ -1,0 +1,180 @@
+/* Sidebar Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #3D251E;
+  transition: 0.5s;
+}
+
+.nav-link {
+  color: #FFF;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #85685f;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+#menu-btn {
+  background-color: #755248;
+  color: #fff;
+  margin-left: -62px;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+
+.logout {
+  text-decoration: none;
+  color: #e0cdc8;
+}
+
+.logout:hover {
+  color: #e0cdc8;
+}
+
+/* Recipe Cards Styling */
+.name-text {
+  text-decoration: none;
+  color: #3D251E;
+}
+
+.name-text:hover {
+  color: #b3958d;
+}
+
+/* Diet Plans Cards Styling */
+.dp-card {
+  border: 0;
+  box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+  -ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+
+.dp-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  border-radius: 8px;
+}
+
+.widget-49 .widget-49-title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3d251e;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-day {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-date-primary .widget-49-date-month {
+  color: #fff;
+  line-height: 1;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-pro-title {
+  color: #3d251e;
+  font-size: 18px;
+}
+
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info .widget-49-meeting-time {
+  color: #3d251e;
+  font-size: 14px;
+}
+
+.widget-49 .widget-49-meeting-points {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: .5rem;
+}
+
+.widget-49 .widget-49-meeting-points .widget-49-meeting-item {
+  display: list-item;
+  color: #727686;
+}
+
+/* Users Section Styling */
+
+.make-hscroll {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #f7f0eb;
+  height: auto;
+  margin-bottom: 100px;
+  overflow-x: scroll;
+}
+
+#home h1 {
+  color: #3d251e;
+}
+
+#home .btn {
+  background-color: #ad8c74;
+  width: 70%;
+  color: #FFF;
+}
+
+#home .btn:hover {
+  background-color: #3D251E;
+}

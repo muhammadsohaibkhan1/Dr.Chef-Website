@@ -1,0 +1,51 @@
+.popular-recipes-bg{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: transparent;
+    height: 440px;
+    margin-bottom: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.popular-recipes-bg::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.card-text-color {
+    color: #3D251E;
+}
+
+.heart-color {
+    color: #3D251E !important;
+}
+
+.save-color {
+    color: #3D251E !important;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    color: #3D251E;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3D251E;
+}
+
+
+.btn-outline-primary:hover {
+    color: #f7f0eb;
+    background-color: #3D251E;
+    border-color: #3D251E;
+}
+
+.btn-outline-primary.dropdown-toggle:focus {
+    color: #f7f0eb;
+    background-color: #3D251E;
+    border-color: #3D251E;
+}

@@ -1,0 +1,85 @@
+.main-div {
+    margin: 0% 15% 15% 15%;
+}
+
+.profile-info {
+    height: 200px;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.chef-full-name {
+    font-weight: bold;
+}
+
+.like-chef-btn {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.add-recipe-btn {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #3D251E;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3D251E;
+    border-radius: 10px;
+}
+
+.add-recipe-btn:hover {
+    color: #FFF;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.recipes-bg {
+    padding: 22px;
+    background-color: #fcf3f0;
+    border-radius: 10px;
+    height: 850px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.recipes-bg::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card-text-color {
+    color: #3D251E;
+}
+
+.bi-heart-fill {
+    color: #3D251E;
+}
+
+.like-recipe-btn {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.save-recipe-btn {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.heart-color {
+    color: #3D251E !important;
+}
+
+.save-color {
+    color: #3D251E !important;
+}

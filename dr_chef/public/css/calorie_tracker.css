@@ -1,0 +1,143 @@
+.top-gap {
+    margin-top: 50px;
+}
+
+.tracker-bg {
+    margin: auto;
+    width: 63%;
+    height: auto;
+    padding: 10px;
+    background-color: #f7f0eb;
+    border-radius: 15px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.days-bar {
+    background-color: #3D251E;
+    border-radius: 20px;
+}
+
+.days-bar a {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.days-bar .active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FFF;
+}
+
+.btn-outline-secondary {
+    border-radius: 20px;
+    color: #3D251E;
+    border-color: #3D251E;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+.btn-outline-secondary:hover {
+    color: #FFF;
+    background-color: #3D251E;
+}
+
+/* progress bar code start */
+.circular-progress {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(#3D251E, 3.6deg, #dececa 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    background-color: #f7f0eb;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* progress bar code end */
+
+.nutrient {
+    background-color: #fff;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nutrient-div,
+.recipe-div {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    height: 405px;
+    background-color: #f2dfda;
+    border-radius: 15px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.nutrient-div::-webkit-scrollbar,
+.recipe-div::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+/* Weekly Calorie Tracker CSS */
+.date-range-bar {
+    background-color: #f2dfda;
+    border-radius: 20px;
+    height: 35px;
+    margin: auto;
+    align-items: center;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+.table tbody tr:nth-child(even) a {
+    text-decoration: none;
+    color: #3D251E;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #3D251E;
+    color: #FFF;
+}
+
+.table tbody tr:nth-child(odd) a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nutrient-label,
+.recipe-label {
+    color: #3D251E;
+}

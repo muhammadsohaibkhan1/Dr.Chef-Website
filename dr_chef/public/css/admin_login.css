@@ -1,0 +1,48 @@
+/* Admin Login Form  */
+body {
+    background-image: url('/images/styling_images/admin_login_bg.jpg');
+    background-size: 100%; ;
+    background-repeat:no-repeat ;
+    backdrop-filter: blur(4px);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.login-form {
+    background-color: #f3e4df;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgba(134, 134, 134, 0.5);
+}
+
+.btn-login {
+    background-color: #3D251E;
+    border-color: #3D251E;
+    width: 80px;
+    color: #FFF;
+}
+
+.btn-login:hover {
+    background-color: #3D251E;
+    border-color: #3D251E;
+    color: #FFF;
+    box-shadow: 0 0 10px 2px rgba(107, 104, 104, 0.5);
+}
+
+.input-field{
+    width: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-field:focus{
+    outline: 2px solid #d3bfb8;
+    background-color: #FFF !important;
+}

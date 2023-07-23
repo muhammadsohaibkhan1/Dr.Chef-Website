@@ -1,0 +1,9 @@
+.recipe_image {
+    height: 150px;
+    border-radius: 10px !important;
+    object-fit: cover;
+}
+
+video{
+    border-radius: 10px !important;
+}

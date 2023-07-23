@@ -1,0 +1,49 @@
+footer {
+    background-color: #3D251E;
+}
+
+.padding-t {
+    padding-top: 50px;
+}
+
+/* Center the columns in the footer */
+.justify-col1 {
+    text-align: justify;
+}
+
+.row.justify-content-center {
+    justify-content: center;
+}
+
+/* Set the link color to white and remove decoration */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer h3, h5 {
+    color: #dbc7c1;
+}
+
+footer li {
+    color: #FFF;
+}
+
+/* Set the link hover color to white */
+footer a:hover {
+    color: white;
+}
+
+ul.list-unstyled li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pd-top {
+    padding-top: 40px;
+}
+
+/* Center the text inside the columns */
+.col.text-center {
+    text-align: center;
+}

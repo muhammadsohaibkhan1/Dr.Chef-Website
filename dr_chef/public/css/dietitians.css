@@ -1,0 +1,56 @@
+
+
+    .recipes-bg-2 {
+        margin: auto;
+        width: 100%;
+        padding: 10px;
+        background-color: #f7f0eb;
+        border-radius: 15px;
+        height: 850px;
+        margin-bottom: 100px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+    
+    .recipes-bg-2::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .btn-outline-primary {
+        color: #3D251E;
+        background-color: transparent;
+        background-image: none;
+        border-color: #3D251E;
+    }
+    
+    
+    .btn-outline-primary:hover {
+        color: #f7f0eb;
+        background-color: #3D251E;
+        border-color: #3D251E;
+    }
+    
+    .btn-outline-primary.dropdown-toggle:focus {
+        color: #f7f0eb;
+        background-color: #3D251E;
+        border-color: #3D251E;
+    }
+    
+    .card-text-color {
+        color: #3D251E;
+    }
+    
+    .bi-heart-fill {
+        color: #3D251E;
+    }
+
+    .bi-whatsapp {
+        color: #3D251E;
+    }
+    
+    .like-dietitian-btn {
+        outline: none;
+        background: none;
+        border: none;
+    }

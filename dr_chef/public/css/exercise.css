@@ -1,0 +1,56 @@
+.exercises-bg-1 {
+    margin: auto;
+    width: 63%;
+    padding: 10px;
+    background-color: #f7f0eb;
+    border-radius: 15px;
+    height: 950px;
+    margin-bottom: 100px;
+}
+
+.exercises-bg-2 {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f0eb;
+    border-radius: 15px;
+    height: 750px;
+    margin-bottom: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.exercises-bg-2::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.exercises-bg-1>h3 {
+    color: #3D251E;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.bg-lt-brown {
+    background-color: #EBD7CC;
+}
+
+.card-btn {
+    background-color: #3D251E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    opacity: 0.8;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}

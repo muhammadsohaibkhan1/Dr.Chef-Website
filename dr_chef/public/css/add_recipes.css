@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#regForm {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 40%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, select {
+    justify-content: center;
+    font-size: 17px;
+    font-family: Raleway;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    justify-content: center;
+    font-size: 17px;
+    font-family: Raleway;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+.nextbtn {
+    background-color: #3D251E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.nextbtn:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: #A08679;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 10px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #3D251E;
+    border: none;
+    border-radius: 5%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.diet_plan_step {
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #3D251E;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.diet_plan_step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #3D251E;
+}
+
+.diet_plan_step.finish {
+    background-color: #3D251E;
+}
+
